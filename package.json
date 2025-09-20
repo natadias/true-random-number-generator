@@ -1,0 +1,21 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "1.0.0",
+  "main": "dist/Random.node.js",
+  "types": "dist/Random.node.d.ts",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "n8n-core": "^1.14.1",
+    "n8n-workflow": "^1.109.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.17",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "gulp build"
+  }
+}

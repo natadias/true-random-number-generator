@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "rootDir": ".n8n/custom/Random/src",
+    "outDir": ".n8n/custom/Random/dist",
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["ES2020", "ES2022"],
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true,
+    "incremental": true,
+    "skipLibCheck": true
+  },
+  "include": [".n8n/custom/Random/src/**/*"]
+}
