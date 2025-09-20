@@ -16,6 +16,7 @@ Antes de começar, certifique-se de ter instalado:
 
 O node customizado fica dentro da pasta `.n8n/custom/Random/`, com a seguinte estrutura:
 
+```text
 true-random-number-generator
 ├─ .n8n/custom/Random/
 │  ├─ src/
@@ -25,6 +26,7 @@ true-random-number-generator
 ├─ package.json
 ├─ tsconfig.json
 └─ gulpfile.js
+```
 
 O `dist/` é onde o código compilado será colocado, e é este que o n8n vai carregar.
 
